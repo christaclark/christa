@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Büro Documentation - Minimalist HTML5 Premium Portfolio Template for Studios &amp; Agencies</title>
+	<meta name="description" content="Büro, Minimalist HTML5 Premium Portfolio Template Documentation">
+	<meta name="author" content="VanKarWai">
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Muli:300,400|Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<section class="intro-section">
+		<h1 class="main-title">Documentation</h1>
+		<p class="sub-main-title"><strong>Büro</strong> Premium Minimal HTML5</p>
+		
+		<p class="status">
+				<strong>Author:</strong> <a href="http://themeforest.net/user/VanKarWai?ref=VanKarWai" target="_blank">VanKarWai</a></br>
+				<strong>Live Preview:</strong> <a href="http://themeforest.net/user/VanKarWai?ref=VanKarWai" target="_blank">View Demo</a></br>
+				<strong>Support:</strong> <a href="http://vankarwaisupport.ticksy.com/" target="_blank">Ask a Question</a></br>
+				<strong>Knowledge Base:</strong> <a href="https://vankarwaisupport.ticksy.com/articles/">Read FAQ's</a><br>
+		</p>
+	</section>
+
+<div class="container">
+
+    <div class="main-menu">
+        <a class="navigation"><strong>Index &#9662;</strong></a>
+        <ul id="accordion">
+	        <li><a href="#step1" class="item menu-anchor"><strong>1. First Steps</strong></a>
+	        <li><a href="#step2" class="item menu-anchor"><strong>2. Adding Content</strong> &#9662;</a>
+	        <ul>
+	            <li><a href="#step3" class="menu-anchor">&#8212; <strong>Adding your content</strong></a></li>
+	            <li><a href="#step4" class="menu-anchor">&#8212; <strong>2.1 Grid System</strong></a></li>
+	            <li><a href="#step5" class="menu-anchor">&#8212; <strong>2.0.2 Modifiers</strong></a></li>
+	            <li><a href="#step6" class="menu-anchor">&#8212; <strong>2.4 Forms</strong></a></li>
+	            <li><a href="#step7" class="menu-anchor">&#8212; <strong>2.6 Header</strong></a></li>
+	            <li><a href="#step8" class="menu-anchor">&#8212; <strong>2.7 Footer</strong></a></li></li>
+	            <li><a href="#step8bis" class="menu-anchor">&#8212; <strong>2.8 Twitter Feed</strong></a></li></li>
+	            <li><a href="#stepSocial" class="menu-anchor">&#8212; <strong>2.9 Social Sharing</strong></a></li></li>
+	    	</ul></li>
+	        <li><a href="#step09" class="item menu-anchor"><strong>3. Customization</strong></a></li>
+	        <li><a href="#step10" class="item menu-anchor"><strong>4. Optimization</strong></a></li>
+	        <li><a href="#step11" class="item menu-anchor"><strong>5. Tips &amp; Tricks</strong> &#9662;</a>
+	        <ul>
+	            <li><a href="#step12" class="menu-anchor">&#8212; <strong>5.1 Make your site faster</strong></a></li>
+	            <li><a href="#step13" class="menu-anchor">&#8212; <strong>5.1 Optimize images</strong></a></li>
+	        	</ul></li>
+	        <li><a href="#step14" class="item menu-anchor"><strong>Credits</strong></a></li>
+        </ul>
+    </div>
+	
+<hr>
+	
+		<h1>Howdy!</h1>
+		<h4>Thank you very much for getting a<br>regular license based in Büro Template</h4><br>
+		<p>This file will help you to start working with your new Premium HTML5 Template. First steps installing, guides to create your own pages, portfolio views or any other feature included.</p><br>
+		<p>If you have any doubt about some detail explained in this guide or any other, just create a support ticket. We will try to help you as better as possible. <a href="https://vankarwaisupport.ticksy.com/" target="_blank">Support Forum  &rarr;</a></p>
+
+		<p class="notice">
+		<strong class="notice-header">Notice</strong><br/>Please, before asking for help, make sure you are using the last template version.
+		</p>			
+			
+<hr class="h">
+
+<a id="step1"></a>
+	
+	<section>
+		<h1>1. First steps</h1><br>
+		<p>The first we must talk about is how to work with any HTML5 template.</p>
+	
+		<h3>Package contents</h3>
+		<ul>
+			<li><strong>Main files</strong>  &#8212; This folder contains the main files you must install in your server in order to set up your site. <a href="#theme-installtion" name="#theme-installtion">Check this section</a>.</li>
+			<li><strong>Sketch Files</strong> &#8212; Contains all the .sketch files well grouped in layers to help you to customize visually your new portfolio in a very easy way. These files are only available for Sketch App, actually an exclusive Mac app. You could use some online app like <a href="https://www.figma.com">Figma</a> to import and work with the files in any system, this service is browser based.</li>
+			<li><strong>Documentation</strong> &#8212; Inside this folder you will find this same documentation updated with the last changes.</li>
+		</ul>
+		
+
+		<p class="notice">
+			<strong class="notice-header">Requirements</strong><br />
+			This is not mandatory, but we deeply encourage you to work in your local machine with <a href="https://www.mamp.info/en/" target="_blank">MAMP</a> and <a href="https://incident57.com/codekit/" target="_blank">Codekit</a>, if you work with Mac, <a href="http://www.wampserver.com/en/" target="_blank">WAMP</a> (Windows) or <a href="https://www.apachefriends.org/es/index.html" target="_blank">XAMPP</a> (Linux). These tools are basic in order to have a work toolset for your local machine. Mostly they are mandatory when working with PHP files.<br><br>
+			If you never tried before these tools, Youtube is full of videos about how to set up such environments. No worries, it is really easy.<br><br>
+			If you don´t want to install nothing, you just need to open index.html with your favorite browser and start editing any template file with your prefered code editor, it´s that easy :)
+		</p>
+	</section>
+
+<hr>
+	
+	<section><a name="video-overview"></a>	
+
+<a id="step2"></a>
+		<h2>1.1. How to start adding your own contents</h2>
+		
+		<p>The best will be to choose a folder in your machine to start editing your files. Preferably, as we talked previously, add your site folder into your local server installation (MAMP, Codekit...). Although you can work in any folder in your machine.</p>
+
+		<p>You will need a code editor in order to customize and add you own contents. In this sense I deeply suggest you to use <a href="https://www.sublimetext.com/">Sublime Text</a>. You have many different options in the market, but this one, in my opinion, is the best for newbies &amp; advanced users.</p>
+		
+		</br>
+		</br>
+
+		<h3>1.1.1. Files &amp; folders</h3>
+			<br>
+			<h4><strong>Main files</strong></h4>
+				<ul>
+					<li><strong>index.html</strong> is the main file you need to run your site in the most web servers. They use to be configured to run by default index.html, index.htm, home.html, default.html or something similar. This file contains the main portfolio page.</li>
+					<li><strong>index-col-0n.html</strong> are the different pages to represent other portfolio configurations, basically they display other grid configurations showing different columns and filtering effects. In earlier template versions you have two different filtering effects (scale enabled - scale disabled)</li>
+					<li><strong>single-project.html</strong> is the one that created to add your project details.</li>
+					<li><strong>about-*.html</strong> are different files to show different layouts and ideas to help you create your own about page. With team areas, services and many other template elements.</li>
+					<li><strong>blog.html</strong> is the file where you can find the blog cover elements</li>
+					<li><strong>single-post-*.html</strong> are related to the different post pages configurations. Displaying the sidebar in the left &amp; righ side, an alternative layout...</li>
+					<li><strong>contact.html</strong> is the one created to show your contact details, add a map or any other content related to your business.</li>
+				</ul>
+			<br>
+			<br>
+			<h4><strong>Folders</strong></h4>
+			<ul>
+					<li><strong>api - </strong>This folder contains configuration files for your Twitter feed. We´ll cover this later in these docs.</li>
+					<li><strong>css - </strong>Here you will find the main style sheets (CSS/styles) for your site.</li>
+					<li><strong>fonts - </strong>As Büro uses different icons font based, these are the dependency files. This folder is not responsible about your main typographic fonts. We´ll cover this later.</li>
+					<li><strong>images - </strong>By default, the main folder where you will add your images. You can order them in different folder inside.</li>
+					<li><strong>inc - </strong>Here you have the different portfolio pages. As the portfolio uses infinite scroll, this method uses a technology to load different pages without doing new http requests and without reloading the page. This is AJAX techonology based. Each time that the portfolio displays 'Loading more projects' it is loading these pages. So if you want to add more pages, you just need to add more pages within this folder following the code and file naming you have here (2.html, 3.html, n.html...)</li>
+					<li><strong>js - </strong>In this folder are the files with all the javescript involved with the template.</li>
+					<li><strong>php - </strong>Here you will find the only files written in PHP. These are the ones that will process the contact form and the newsletter form. We´ll cover the form configuration later as well.</li>
+				</ul>
+			<br>
+			<br>
+		<h3>1.1.2. Upload your files to your server via FTP</h3>
+				<ul>
+					<li>Using your FTP client, for example <a href="https://filezilla-project.org/">Filezilla</a>, log into your server via FTP and search or create your site folder. Normally it will be at the root in your server, depending on your configuration. This is the most common way to publish a website and make it accesible online for everybody.</li>
+				</ul>
+			</br>
+			</br>
+	</section>
+
+<hr>	
+<a id="step3"></a>
+
+	<section>
+
+		<h1>2. Adding Content</h1><br>
+
+		<p>Basically you just need to edit the files with your preferred code editor.</p>
+
+		<p>In order to work with the content presentation, you can add different classes to help you to modify and style better your titles and contents in general. In the next steps we are covering the different choices you have for this.</p>
+
+		<h2>Bootstrap</h2>
+
+		<p>As you know, Büro is a bootstrap HTML5 template, so you will have access to the most part of the features included with the framework</p>
+<a id="step4"></a>
+		<h3>2.1. Grid</h3><br>
+
+		<p>This is the most important part of the theme in order to create your own layouts in a very easy way. Bootstrap provides a very powerful and flexible grid system that will help you to place your contents as you could need. Bootstrap provides a powerful responsive &amp; fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases.</p>
+
+		<p>In this sense, the best will be to direct you to the official docs in order to have an accurated detail about how the grid works. You can check this out, <a href="http://getbootstrap.com/css/#grid">here</a>.</p>
+
+		<p>Basically you need to have clear the difference between <strong>.container</strong> class, <strong>.row</strong> class and the different <strong>.col-*</strong> classes.</p>
+
+		<p>Some short brief would be creating first a container wrapper that it will include different rows depending on your design and inside this rows you will place columns depending again on your design in mind. The container wrapper can be a 'fluid' one that will adapt to the whole screen available width.</p>
+
+		<p>Anyways, do not worry if it is your first time with Bootstrap. It is one of the most popular frameworks for some reason, so you wil be creating your own layouts in minutes. Also, you have all the code modularized &mp; commented with the template in order to re-use it as you could need. Take it as guide or just replace the contents if you like the layouts used as demostration. Anyways, you have tons of guides in internet about how to work with Bootstrap and you always can drive us a mail or <a href="https://vankarwaisupport.ticksy.com/">open a support ticket</a> in case that you could have any related doubt, we´ll help you with anything (remind that we don´t provide customizations).</p>
+
+	<a id="step5"></a>
+		<h3>2.0.2. Helper classes</h3>
+
+		<p>Aside the powerful grid system provided by Bootstrap, the template includes some helper classes that you can add to your markup in order to achieve many different results.</p>
+
+		<h3>Global/Config classes</h3>
+		<p>You can add some classes to the body element in order to achieve some things to work different.</p>
+		<ul>
+			<li><strong>no-menu-hover</strong>  &#8212; This class will remove the on hover main menu overlay that appears when hovering the different options in the navigation. We are talking about the big texts that appear on hover the menus. If you add this class into the body tag, you will remove this feature.</a>.</li>
+			<li><strong>no-fltrs-scale</strong> &#8212; By default the main portfolio page, in this case index.html, comes with fltrs-scale class in the body. This will enable the "zoom out" effect that happens when you click some filter. Just replace this class with no-fltrs-scale to remove this feature.</li>
+			<li><strong>cols-x</strong> &#8212; The template provides different files to display different columns for the projects grid depending on your preferences. But modifying this is so easy as changing in index.html the cols-x class number. Just add the number of columns you want to display. For example, if you want 2 columns this would look like cols-2 or if you want 5 columns, this would be cols-5. It´s that easy :)</li>
+		</ul>
+
+		<code>index.html: line 129 -> class="js-ajax-holder projects <strong>cols-2</strong>"</code>
+
+		<p>As you can see here, it is really easy to modify.</p>
+
+		<h3>2.2 Typography class helpers</h3><br>
+
+		<p>You can modify the look for some typogrpahy elements with just a single class. Let´s see:</p>
+
+		<ul>
+			<li><strong>highlight</strong>  &#8212; Use this class when you want to highlight the text with the highlight color. We will show how to customize colors and typefaces later.</li>
+			<li class="no-list">
+				<img src="img/01-highlight.png">
+			</li>
+			<li class="no-list">
+				<p>This just looks like this in the code</p>
+				<pre>&lt;h4&gt;Strategy.&lt;/h4&gt;</pre>
+			</li>
+			<li class="no-list">
+				<p>So if you want to highlight this title, just add the class in this way:</p>
+				<pre>&lt;h4 class="highlight"&gt;Strategy.&lt;/h4&gt;</pre>
+				<p>This is the result:</p>
+				<img src="img/02-highlight.png">
+			</li>
+			<li><strong>claim</strong> &#8212; This class modifier will transform the text in a bigger one with the secondary typeface as base. Let´s see how this works:</li>
+			<li class="no-list">
+				<p>This just looks like this in the code:</p>
+				<pre>
+&lt;div class="row mar-btm-sm"&gt;
+	&lt;div class="col-sm-6"&gt;
+		&lt;h4 class="highlight"&gt;Strategy.&lt;/h4&gt;
+		&lt;p&gt;We create brand strategy, digital &amp; interactive experiences for international creative folks.&lt;/p&gt;
+		&lt;p&gt;Büro combines a strong technical background with a great strategic vision to achieve the beauty. We create exceptional web experiences that your audience will never forget.&lt;/p&gt;							
+	&lt;/div&gt;
+&lt;/div&gt;
+				</pre>
+				<p>As you can see, this is regular text and actually this just look like this:</p>
+				<img src="img/03-claim.png">
+				<p>Let´s add now the claim class and let´s see what happens:</p>
+				<pre>&lt;p <strong>class="claim"</strong>>We create brand strategy, digital &amp; interactive experiences for international creative folks.&lt;/p&gt;</pre>
+				<img src="img/04-claim.png">
+			</li>
+			<br>
+			<br>
+			<li><strong>text-bigger</strong> &#8212; If you need some bigger text, you can add this class to your text. This looks like this:</li>
+			<pre>&lt;p&gt;Büro combines a strong technical background with a great strategic vision to achieve the beauty. We create exceptional web experiences that your audience will never forget.&lt;/p&gt;</pre>
+			<p>Add the class like this:</p>
+			<pre>&lt;p <strong>class="text-bigger"</strong>&gt;Büro combines a strong technical background with a great strategic vision to achieve the beauty. We create exceptional web experiences that your audience will never forget.&lt;/p&gt;</pre>
+			<p>This results in:</p>
+			<img src="img/05-text-bigger.png">
+			<li><strong>text-middle</strong> &#8212; This is pretty similar, this is a middle sized text</li>
+			<pre>&lt;p&gt;Developers, designers &amp; monkeys.<br>We’re a very talented bunch.&lt;/p&gt;</pre>
+			<img src="img/06-text-middle.png">
+			<p>Let´s add the class:</p>
+			<pre>&lt;p class="<strong>text-middle</strong>"&gt;Developers, designers &amp; monkeys.<br>We’re a very talented bunch.&lt;/p&gt;</pre>
+			<img src="img/07-text-middle.png">
+			<li><strong>alt-font</strong> &#8212; With this transform class you can change the main typeface with the alternative one in a very easy way. Let´s add it and let´s see what happens :)</li>
+			<pre>&lt;p class="text-middle <strong>alt-font </strong>mar-top-xs"&gt;Developers, designers &amp; monkeys.<br>We’re a very talented bunch.&lt;/p&gt;</pre>
+			<img src="img/08-alt-font.png">
+			<li><strong>underline</strong> &#8212; Underline allows you to underline any single text line.</li>
+			<pre>&lt;h4 class="highlight <strong>underline</strong>"&gt;The team&lt;/h4&gt;</pre>
+		</ul>
+		<br>
+		<br>
+		<br>
+		<h2>2.3 Content layout helper classes</h2><br>
+		<p>The template provides a very easy way to add margins between your block contents. You will be able to add different margins depending on your needs.</p>
+		<p>These classes are divided in two groups. The one to control the top margins in an element and the ones for controling the bottom margins. Having this into account:</p>
+		<ul>
+			<li><strong>mar-top-xs</strong> &#8212; This will add a very small margin to the top.</li></li>
+			<li><strong>mar-top-sm</strong> &#8212; This will add a small margin to the top.</li></li>
+			<li><strong>mar-top-md</strong> &#8212; This will add a middle margin to the top.</li></li>
+			<li><strong>mar-top-lg</strong> &#8212; This will add a large margin to the top.</li></li>
+			<li><strong>mar-top-xlg</strong> &#8212; This will add an extra large margin to the top.</li></li>
+			<br>
+			<p>The same in case of the bottom margins:</p>
+			<li><strong>mar-btm-xs</strong> &#8212; This will add a very small margin to the bottom.</li></li>
+			<li><strong>mar-btm-sm</strong> &#8212; This will add a small margin to the bottom.</li></li>
+			<li><strong>mar-btm-md</strong> &#8212; This will add a middle margin to the bottom.</li></li>
+			<li><strong>mar-btm-lg</strong> &#8212; This will add a large margin to the bottom.</li></li>
+			<li><strong>mar-btm-xlg</strong> &#8212; This will add an extra large margin to the bottom.</li></li>
+			<br>
+			<p>Having this into account, you would be adding your own contents and modules and you would see this without the classes:</p>
+			<img width="950px" src="img/09-margins.png">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>As you can see, no margins are applied by default, because you can control this much better with the classes with already have seen. This will give you a more accurted result to your design. And the best part is that it is responsive as well.</p>
+			<p>You can do this in many ways, but the easier one would be adding the classes to the twitter feed in this case. Now the markup is like this:</p>
+			<pre>&lt;div class="slider-module cnt-slider"&gt;</pre>
+			<p>Thus, if we add the classes like this:</p>
+			<pre>&lt;div class="slider-module cnt-slider <strong>mar-top-lg mar-btm-lg</strong>"&gt;</pre>
+			<p>We are adding a 'large' top margin and a large bottom margin. So now we have this :)</p>
+			<img width="950px" src="img/010-margins.png">
+		</ul>
+
+	</section>
+
+	<hr>
+
+<a id="step6"></a>
+
+	<section>
+
+		<h2>2.4 Forms &amp; mail inbox configuration</h2><br>
+
+		<p>You can create a compose your forms as you could need just creating the layout with bootstrap classes in a very easy way. Everything is styled and you don´t need to do much more. You just need to configure your mail inbox, where you will receive the mails from your website and the inbox for the newsletter subscribers. Also, you can custom the form process texts.</p>
+
+		<p>To do this, you just need to open, within <strong>php folder</strong> the files form-process.php for the main form and newsletter-process.php in case of the form related to the newsletter area. Inside you will see how to adapt these files to your needs, it is very easy.</p>
+
+	</section>
+
+	<hr>
+<!-- <a id="step7"></a> -->
+
+	<section>
+
+		<h2>2.5 Share options</h2>
+
+		<p>In this section we are learning where add or remove social networks to share in.</p>
+		<p>This options are only available within single-project.html file and the blog pages. In these pages the option will be available and when the user clicks on the 'share' button, the social networks you have added will appear.</p>
+		<p>For example, if you open single-project.html, you will see around the line 227 a 'module code' with the tag 'social modal box'. As you can see, each list element is one of the available social networks. Twitter, Facebook, Pinterest, Google Plus and mail sharing. You can remove any if you want it here.</p>
+		<br>
+
+	</section>
+
+	<hr>
+
+<a id="step7"></a>
+	<section>
+
+		<h2>2.6 Header</h2>
+
+		<p>As Büro is a plain HTML5 template, any change you do in your heading options, you will need to update it in every file in your site, as you know. You can use the find and replace feature in your preferred code editor in order to make this process is breath instead of going to each file, open, change, save &amp; close.</p>
+
+		<h3>Logo</h3>
+		<p>This is the markup for the logo:</p>
+		<pre>&lt;div class="logo"&gt;
+	&lt;a href="index.html"&gt;&lt;img src="images/logo.png" class="img-responsive" width="161" height="35" alt="Büro — design atelier"&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+
+		<p>Basically you don´t need to do very much. Just add your logo path to the src attribute, in case the name is different and it is located in a different path, of course. If you are naming to your logo 'logo.png' and you have save it into the images folder, you don´t need to modify nothing here. Just remind to modify/adapt the width &amp; height values to your logo. Also, you can add an alt text to your logo as well.</p>
+
+		<br>
+		<br>
+		<h3>Navigation</h3>
+
+		<p>You can set up your main navigation here. Basically you must have into account some few details in order to create your navigation</p>
+		<ul>
+			<li>Main navigation title. You set up this as you normally do. Let´s see this in the markup</li>
+			<pre>&lt;a href="index.html" data-title="Work" data-subtitle="Latest projects"&gt;<strong>Work</strong>&lt;/a&gt;</pre>
+			<li>When you want to display the current page as active, you need to add the class 'active' into the list parent, in this way</li>
+			<pre>&lt;li class="<strong>active</strong>"&gt;
+&lt;a href="index.html" data-title="Work" data-subtitle="Latest projects"&gt;Work&lt;/a&gt;
+			</pre>
+			<li>As you know, one of the features in Büro is that cool hovering effect title that appears when you are selecting the navigation. You set up this via two different data-* attributes.<br><br>This first one it to generate the main title navigation option. You add this via <strong>data-title</strong> attribute, in this way:</li><br>
+			<pre>&lt;a href="index.html" <strong>data-title="Work"</strong> data-subtitle="Latest projects"&gt;Work&lt;/a&gt;</pre><br>
+			<li>The same for the sutitle in your navigation option, just add the <strong>data-subtitle</strong> attribute:</li><br>
+			<pre>&lt;a href="index.html" data-title="Work" <strong>data-subtitle="Latest projects"</strong>&gt;Work&lt;/a&gt;</pre><br><br>
+			<li>Subnavigation is really easy to add as well. You just need to create an inner 'ul' within a first level 'li' tag with the class 'dropdown-menu', as you can see here:</li><br>
+			<pre>
+&lt;li class="active"&gt;
+	&lt;a href="index.html" data-title="Work" data-subtitle="Latest projects"&gt;Work&lt;/a&gt;
+	<strong>&lt;ul class="dropdown-menu" role="menu"&gt;
+		&lt;li&gt;&lt;a href="index-col-01.html" title="Portfolio page with 1 column project grid"&gt;1 Columns&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="index.html" title="Portfolio page with 2 columns project grid"&gt;2 Columns&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="index-col-03.html" title="Portfolio page with 3 columns project grid"&gt;3 Columns&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="index-alt.html" title="Portfolio right sided heading"&gt;Alt heading&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;</strong>
+&lt;/li&gt;
+			</pre>
+		</ul>
+		<p>Anyways, do not worry if it is your first time writing HTML, because you have all the code writen in the files, so you will have them as a guideline. It is very easy.</p>
+
+	</section>
+
+	<a id="step8"></a>
+
+	<section>
+
+		<h2>2.7 Footer</h2>
+
+		<p>The footer is created again on the bootstrap grid basis. Just check the code in order to understand how it was built.</p>
+		<p>Here you will find some social icons. As you can see in the markup the 'i' tag has a different class depending on the social network. Here are the different options you can add as class:</p>
+		<ul>
+			<li><strong>icon-twitter</strong></li>
+			<li><strong>icon-facebook</strong></li>
+			<li><strong>icon-pinterest</strong></li>
+			<li><strong>icon-behance</strong></li>
+			<li><strong>icon-dribbble</strong></li>
+			<li><strong>icon-github</strong></li>
+			<li><strong>icon-linkedin</strong></li>
+			<li><strong>icon-soundcloud</strong></li>
+			<li><strong>icon-spotify</strong></li>
+			<li><strong>icon-tumblr</strong></li>
+			<li><strong>icon-vimeo</strong></li>
+			<li><strong>icon-youtube</strong></li>
+			<li><strong>icon-google</strong></li>
+			<li><strong>icon-skype</strong></li>
+			<li><strong>icon-whatsapp</strong></li>
+			<li><strong>icon-mail</strong></li>
+		</ul>
+		<br>
+		<p>These are the different options you have in order to add your social networks icons.</p>
+		<p>Also you will need to add the link to your social network. To do this is that easy as adding your link replacing the current '#' in the href attribute in your anchor, in this way:</p>
+		<pre>&lt;li&gt;&lt;a href="//link-to-your-network.com"&gt;&lt;i class="icon-twitter"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</pre>
+
+	</section>
+
+	<a id="step8bis"></a>
+
+	<section>
+
+		<h2>2.8 Twitter Feed</h2>
+
+		<p>You can add a Twitter feed within any page. New Twitter API requires oAuth Token Key, so it's two step process</p>
+		<h4>Step 1:</h4>
+		<p>First, you need consumer and consumer secret keys. Get them from <a href="dev.twitter.com/apps">dev.twitter.com/apps</a>.</p>
+		<h4>Step 2:</h4>
+		<p>Edit <strong>api/config.php</strong> file and replace variables with your Consumer and oAuth Keys.</p>
+		<pre>// Consumer Key
+define('CONSUMER_KEY', 'CONSUMER_KEY_HERE');
+define('CONSUMER_SECRET', 'CONSUMER_SECRET_HERE');
+
+// User Access Token
+define('ACCESS_TOKEN', 'ACCESS_TOKEN_HERE');
+define('ACCESS_SECRET', 'ACCESS_SECRET_HERE');</pre>
+		<p>Your twitter feed is ready to start serving your tweets just by adding the code that you can find in about.html or about-agency.html files. Just copy and paste and play with the Bootstrap grid to fit your preferences.</p>
+
+	</section>
+
+	<a id="stepSocial"></a>
+
+	<section>
+
+		<h2>2.9 Social Share Configuration</h2>
+
+		<p>In order to share your contents in <strong>social networks like Facebook, Twitter or Google Plus</strong>, you must have into account that those services use some 'methodology'. Basically you will be using a protocol that enables to any website to become a rich object in a social graph. What does mean? Simply you are adding some markup to let to those social networks know how to display your contents in their own services. Let´s see how this does work.</p>
+		<h4>Facebook &amp; Google Plus:</h4>
+		<p>The most used protocol for these functionalities is Open Graph, created by Facebook in 2010. This protocol <strong>(using its HTML markup placed at the head/top part of your HTML document)</strong>, just allows to Facebook, Twitter &amp; Google Plus to know what kind of contents they will share from your page once anybody share the link in the social networks or when a user will click the options within your page.</p>
+		<h4>Twitter:</h4>
+		<p>Twitter uses its own protocol, they call to this 'cards'. But basically it works in the same way that in case of Facebook.</p>
+		<p>This is very simple, let´s see an example from inside Buro. The exemple is from the file - <strong>single-project-assistant.html</strong></p>
+		<pre>
+&lt;!-- Twitter Cards --&gt;
+&lt;meta name="twitter:card" content="summary_large_image" /&gt;
+&lt;meta name="twitter:site" content="@usernamehere" /&gt;
+&lt;meta name="twitter:creator" content="@usernamehere" /&gt;
+
+&lt;!-- Open Graph | Facebook and Google Plus --&gt;
+&lt;meta property="og:title" content="Büro - Minimalist HTML5 Premium Portfolio Template for Studios &amp; Agencies"&gt;
+&lt;meta property="og:url" content="https://heythemers.com/templates/buro/buro-google/index.html"&gt;
+&lt;meta property="og:description" content="Büro is a unique minimalist Premium HTML5 Template for creative agencies and freelances"&gt;
+&lt;meta property="og:image" content="https://image-tf.s3.envato.com/files/194471742/screenshots/00-buro-cover-tf.__large_preview.png"&gt;
+&lt;meta property="og:image:width" content="600"&gt;
+&lt;meta property="og:image:height" content="315"&gt;
+&lt;meta property="og:type" content="website"&gt;
+		</pre>
+		<h4>Explanation:</h4>
+		<p>Basically, you don´t need to modify too much in case of <strong>Twitter Cards</strong>, because Twitter gets data from Open Graph too, so you just need to specify how the content will display once it will be shared. In this case is set to display the large cover image. Also you can add your 'site' &amp; 'creator' data.</p>
+		<p>The most important part is related to <strong>Open Graph</strong>. Here you must to specify different details. Let´s review them one by one:</p>
+		<ul>
+			<li><strong>og:title</strong> - This will be the text displayed as 'title' for your social post. This should be the same as you use as your main page title.</li>
+			<li><strong>og:url</strong> - You must to specify the URL to this article/post.</li>
+			<li><strong>og:description</strong> - If you already have a good main page description, use it here. In case you want to show something different for your social networks, for some specific reason, you can change this as you prefer.</li>
+			<li><strong>og:image</strong> - This will be the featured image that will be displayed in your social post.</li>
+			<li><strong>og:image:width &amp; og:image:height</strong> - These values are important because the first time that somebody share your post in Facebook, the social network needs to cache at least once the picture. What does mean? That the first time that your post is shared, it won´t display the featured picture until Facebook caches it. A method to prevent this is adding here the width and height for the picture, in this way, even the first time that your post is shared in Facebook, it will display normally your featured image.</li>
+			<li><strong>og:type</strong> - You must to specify the type of content.</li>
+		</ul>
+		<br>
+		<p>In any case, <a href="https://dev.twitter.com/cards/types/summary-large-image">here</a> you can see more details about Twitter cards, and <a href="https://developers.facebook.com/docs/sharing/webmasters#markup">here</a> you can see more details about Facebook Open Graph.</p>
+		<p>Just have into account that you will need to modify this for each page in order to provide the best data for social networks to work propertly.</p>
+	</section>
+	
+	<a id="step09"></a>
+
+	<hr>
+
+	<section>
+
+		<h1>3. Customization</h1>
+
+		<p>You can customize many different details about the template with some few modifications. We are talking now about the best methods to add your own styles and how to optimize your load timings.</p>
+
+		<h3>Hightlight colors and fonts</h3>
+		<p>The main template style file is style.css, this file is within the css folder.</p>
+		<p>This file contains all the look and feel related styles and it is the responsible for the colors, typefaces, margins, spaces... Within each page head you´ll find the next related links (the main style sheets)</p>
+		<pre>&lt;!-- Main styles --&gt;
+&lt;link rel="stylesheet" href="css/bootstrap.css"&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;</pre>
+		<p>As you can see, aside the main one, the template loads another style sheet for all the bootstrap dependencies like grids and components.</p>
+		<p>If you want to change something, for example, you want to modify the highlight color, you can do this in style.css. The whole code is well commented and you can easilly find where you must do such modifications. You will see how elements are first grouped in order to define the typeface assignment and the color scheme. Between lines 250 and 390 you have all these rules ready for you to change.</p>
+		<p>When editing templates or WP themes is not recommended to modify the core/main files, because if you do your modifications directly in style.css and you update the template in the future, you will loose all your modifications because this file will be overwritten. So, how do you should do this?</p>
+		<p>Well, you have many different approaches to this, but the more common should be creating a new css file. Something like this:</p>
+		<pre>&lt;link rel="stylesheet" href="css/bootstrap.css"&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;link rel="stylesheet" href="css/custom-styles.css"&gt;</pre><br>
+	
+		<p>As you can see, a new css line has been added. In this file you would add you own custom rules. You can copy and paste from the original file all the rules you could need and then add your own values. Or directly create your own.</p>
+
+		<p>The best tool to help you editing the template when you want to modify some particular element and you want to know which styles are involved there, it´s Chrome and the <a href="https://developer.chrome.com/devtools">Chrome Developers Tools</a>. This toolset will allow you to inspect any web page in order to find all the styles involved, among other important details.</p>
+
+		<p>Thus using this tool you will find quickly any element values and you can easilly modify them in the dev tools, add your own values and then copy and paste this new rule definition into your custom style sheet, it´s that easy.</p>
+
+	</section>
+
+	<hr class="h">
+
+
+	<a id="step10"></a>
+
+	<section>
+
+		<h1>4. Optimization</h1>
+
+		<p>When uploading your files to your server you should optimize the way they load. This will turn your site faster and faster likes to users and Google.</p>
+
+		<p>As we saw before, you must include in the head all the styles involved, something like this:</p>
+		<pre>&lt;link rel="stylesheet" href="css/bootstrap.css"&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;link rel="stylesheet" href="css/custom-styles.css"&gt;</pre><br>
+		
+		<p>This is good as organization and modularity, it´s great to have control over your code but this is not optimized. The first you should do is to compress each file, for this, just copy and paste your file code in a service like <a href="http://cssminifier.com/">this one</a>.</p>
+
+		<p>This will generate a compressed file that you can use in the same way. This method just removes spaces and other unuseful characters.</p>
+
+		<p>This will turn your code in something like this:</p>
+
+		<pre>&lt;link rel="stylesheet" href="css/bootstrap-min.css"&gt;
+&lt;link rel="stylesheet" href="css/style-min.css"&gt;
+&lt;link rel="stylesheet" href="css/custom-styles-min.css"&gt;</pre><br>
+
+		<p>You can rename each compresed file to something like *-min.css.</p>
+
+		<p>With this you have compressed and reduced the files size. This will do your site load faster but you can improve a little bit more by reducing server request. To achieve this just add all your compressed css files in a unique one. You should respect the order, because if you add your custom styles before the main styles, they won´t take effect in your site. Always respect the cascade. So at the end instead of the different style sheets you would have just one containing all the compressed code related to each one, in the same order as you had them at the beggining.</p>
+
+		<pre>&lt;link rel="stylesheet" href="css/your-custom-minified-ultra-optimized-styles-min.css"&gt;</pre><br>
+
+		<p>Now you have your CSS ready. It´s time to pay attention to the javascript files.</p>
+
+		<p>They are placed at the bottom and they look like this:</p>
+
+		<pre>
+&lt;!-- Main scripts --&gt;
+&lt;script src="js/vendor/jquery.js"&gt;&lt;/script&gt;
+&lt;script src="js/main.js"&gt;&lt;/script&gt;
+&lt;script src="js/plugins.js"&gt;&lt;/script&gt;
+&lt;script src="js/bootstrap.js"&gt;&lt;/script&gt;
+		</pre>
+
+		<p>Here you have all the javascript dependencies.</p>
+		<ul>
+			<li><strong>jquery.js</strong> This is a javascript library for modern development.</li>
+			<li><strong>main.js</strong> These are the main template functions.</li>
+			<li><strong>plugins.js</strong> This file contains all the plugins used with the template, for example isotope.js.</li>
+			<li><strong>bootstrap.js</strong> Contains all the javascript dependencies related to bootstrap like sliders, mobile menus...</li>
+		</ul>
+		<p>To optimize this is pretty the same that you did with the CSS files, you first compress the files and then you can fetch some of them. I recommend you to do this.</p>
+
+		<p>First compress each file, you can use <a href="http://lisperator.net/uglifyjs/#demo">this service</a>. You should have this:</p>
+
+		<ul>
+			<li><strong>jquery-min.js</strong></li>
+			<li><strong>main-min.js</strong></li>
+			<li><strong>plugins-min.js</strong></li>
+			<li><strong>bootstrap-min.js</strong></li></li>
+		</ul>
+		<br><br>
+		<p>Once you have done this, you can include some file into another. For example, once you have them minified, you can add bootrstrap-min.js content at the end of the plugins-min.js. In this way you are saving another server request.</p>
+
+		<p>If you follow these tips and you optimize your images, your site will load faster and you will see huge improvements. Also, there are many things that you can do in your server in order to improve more your site loading times and general performance. <a href="http://www.hongkiat.com/blog/ultimate-guide-to-web-optimization-tips-best-practices/">Here</a> you can find more tips to improve your site performance. Notice that some of them could need advanced web development skills.</p>
+
+		<p class="notice">
+			<strong class="notice-header">Optimization</strong><br/>
+			It is not mandatory to optimize your site, if you don´t want to do those steps, you just need to upload your site to your server and it will run normally. Optimization it´s just about improving user experience, save server resources and make happy users and search engines. At the end, you will be happier as well :) So go on!
+		</p>
+
+	</section>
+
+	<hr class="h">
+
+<a id="step11"></a>
+
+	<section>
+
+		<h1>5. Tips &amp; Tricks</h1>
+
+	</section>
+
+	<hr>
+<a id="step12"></a>
+
+	<section>
+
+		<h2>5.1 Make your site faster</h2>
+
+		<h3>5.1.1 Get a good hosting</h3>
+
+		<p>You may not think that this is important, but if you want your site to display really fast you need to get a good hosting. This is the first step in having a fast site, which also translates into more views, which also translates into a better SEO, which finally translates into more sales.</p>
+
+		<p>There are three hosting companies which i recommend:</p>
+
+			<ul class="s">
+
+				<li><a href="http://mediatemple.net">Media Temple</a> &rarr; if you want a premium WordPress hosting which is easy to manage and works pretty well, this is a good choice to host your website on.</li>
+
+				<li><a href="https://www.siteground.com/">Siteground</a> &rarr; this is another good hosting company, which i’m currently using to host my theme demos on. If you bought this theme you probably liked the speed as well, so I highly recommend Siteground to host your themes on (especially the Cloud VPS option).</li>
+
+				<li><a href="http://wpengine.com">WPEngine</a> &rarr; definitely not as cheap as the two examples above, but if you really want an incredibly fast website and absolutely no headaches in managing it, WPEngine is the way to go. With it you don’t have to worry about security, caching, updates, etc. Everything is handled by a great theme of professionals ready to help you with everything. You just need to care about your content.</li>
+
+			</ul>
+
+		<br><br>
+<a id="step13"></a>
+		<h3>5.1.2. Optimize images</h3>
+
+		<p>Always optimize/compress your jpeg images before uploading them to the server. Large images should be compressed at around 90% image quality and you should also try to limit the use of lossless image files (uncompressed pngs).</p>
+
+	<hr class="h">
+	
+<a id="step14"></a>
+	<section>	
+		<h1>Credits</h1>
+		
+		</br>
+
+		<ul>
+			<li><a href="http://getbootstrap.com/" target="_blank"><strong>Bootstrap</strong></a></li>
+			<li><a href="http://isotope.metafizzy.co/" target="_blank"><strong>Isotope</strong></a></li>
+			<li><a href="https://github.com/infinite-scroll/infinite-scroll" target="_blank"><strong>Infinite Scroll</strong></a></li>
+		</ul>
+
+		</br>
+		</br>
+		<p>And a special big <strong>THANK YOU</strong> for those great artists and creatives that provide us with some of their amazing pieces to illustrate Büro HTML5 Bootstrap Premium Template.</p>
+		</br>
+
+		<ul>
+			<li><a href="http://andresguerrero.es/" target="_blank"><strong>Andrés Guerrero</strong></a></li>
+			<li><a href="http://www.chloegalea.com/" target="_blank"><strong>Chloë Galea</strong></a></li>
+			<li><a href="http://www.forma.co/" target="_blank"><strong>Forma &amp; Co</strong></a></li>
+			<li><a href="https://www.behance.net/echoooo" target="_blank"><strong>Echo Yang</strong></a></li>
+			<li><a href="https://www.behance.net/sntg" target="_blank"><strong>Niels Buschke &amp; Leif Schmodde</strong></a></li>
+			<li><a href="https://www.behance.net/oscarmaia" target="_blank"><strong>Oscar Maia</strong></a></li>
+			<li><a href="https://www.behance.net/guidodalpra" target="_blank"><strong>Guido Dal Prà</strong></a></li>
+		</ul>
+
+	</section>
+	
+<p>&nbsp;</p>	<p>&nbsp;</p>	
+
+	<footer>
+		<p>&copy; Büro HTML5 Bootstrap Premium Template</p>
+	</footer>
+
+</div><!-- .container -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+<script>
+	sH = $(window).height();
+	$(".intro-section").css("height", sH-220);
+
+	$(window).resize(function() {
+	  	sH = $(window).height();
+		$(".intro-section").css("height", sH-220);
+	});
+	
+</script>
+
+<script>
+
+$(document).ready(function () {
+		
+	$('.main-menu .navigation').click(function () {
+		
+		$('#accordion a.item').each(function () {
+			$(this).removeClass($(this).attr('rel') + 'active');	
+		});
+		
+		$('#accordion li').children('ul').slideUp('fast');
+
+		$('#accordion').slideToggle('fast');
+	});
+
+	$('.main-menu').mouseleave(function () {
+					
+		$('#accordion a.item').each(function () {
+			$(this).removeClass($(this).attr('rel') + 'active');	
+		});
+		
+		$('#accordion li').children('ul').slideUp('fast');
+
+		$('#accordion').slideUp('fast');
+	});
+	
+	$('#accordion a.item').click(function () {
+
+		if (!$(this).hasClass('active')) {
+		
+			//slideup or hide all the Submenu
+			$('#accordion li').children('ul').slideUp('fast');	
+			
+			//remove all the "Over" class, so that the arrow reset to default
+			$('#accordion a.item').each(function () {
+				$(this).removeClass($(this).attr('rel') + 'active');	
+			});
+			
+			//show the selected submenu
+			$(this).siblings('ul').slideDown('fast');
+			console.log($(this).siblings('ul'))
+			
+			//add "Over" class, so that the arrow pointing down
+			$(this).addClass($(this).attr('rel') + 'active');	
+		
+		} else {
+			
+			//slideup or hide all the Submenu
+			$('#accordion li').children('ul').slideUp('fast');
+			
+			//remove all the "Over" class, so that the arrow reset to default
+			$('#accordion a.item').each(function () {
+				$(this).removeClass($(this).attr('rel') + 'active');	
+			});
+			
+		}
+
+	});
+
+});
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+  _gaq.push(['_setDomainName', 'themeforesters.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
